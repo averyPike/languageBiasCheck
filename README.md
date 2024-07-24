@@ -1,5 +1,5 @@
 # Exploring Gender Pronoun Distribution and Character Identification in 19th Century Novels
-
+#### Cormac Dacker, Tyler Gomez Riddick, Avery Pike
 
 ## Introduction
 

@@ -45,15 +45,15 @@ We utilized SparkNLP for POS-tagging and Spacy for Named-Entity Recognition (NER
 
 ### Character Gender Prediction
 
-Accuracy was calculated by dividing the number of correct predictions by the total number of predictions. Results were split by book to evaluate model performance across different texts. We also measured accuracy by gender. Notably, *Frankenstein* achieved 100% accuracy, likely due to its smaller cast of characters.
+Accuracy was calculated by dividing the number of correct predictions by the total number of predictions. Results were split by book to evaluate model performance across different texts. We also measured accuracy by gender. Notably, *Frankenstein* achieved 100% accuracy, likely due to its smaller cast of characters. The above visualization shows the male, female, and total accuracy for each of the books and all the books together. We found that our model, for characters with more than 10 nearby pronouns, is more accurate than a coin flip in all cases for this corpus. 
 
 ### Pronoun Frequency Analysis
 
-We conducted statistical tests to compare the frequencies of male and female subjective and objective pronouns. Our findings indicated no statistically significant differences between the frequencies of male and female subjective pronouns, nor between male and female objective pronouns.
+We conducted statistical tests to compare the frequencies of male and female subjective and objective pronouns. Our findings indicated no statistically significant differences between the frequencies of male and female subjective pronouns (p-value=0.74), nor between male and female objective pronouns (p=0.09). It is important to note that though neither of these results are statistically significant, the p-value is pretty close to the standard accepted threshold of 5%. 
 
 ## Conclusions and Future Research
 
-Our initial hypothesis that a corpus of entirely women authors would lead to no difference between the frequency of pronouns for each gender was supported by our model. We also had success with our predictive accuracy of gender counts. The study supports the notion that the gender of the author affects not only the frequency of respective gender pronouns, but also predictive accuracy within the corpus.
+Our initial hypothesis that a corpus of entirely women authors would lead to no difference between the frequency of pronouns for each gender was supported by our model. We also had success with our predictive accuracy of gender counts. The study supports the notion that the gender of the author affects not only the frequency of respective gender pronouns, but also predictive accuracy within the corpus. Further work can be done to expand the scope of pronoun detection, which may increase or decrease accuracy (though we predict it will improve accuracy). 
 
 This observation suggests the need for further research into pronoun usage concerning author gender. It would be irresponsible to suggest any concrete relationship between author gender and pronoun prediction accuracy from such a small corpus, but these initial findings and confirmation of our hypotheses are promising in suggesting that the gender of the author has significant influence on gender pronoun usage.
 

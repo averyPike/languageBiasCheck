@@ -40,6 +40,9 @@ We utilized SparkNLP for POS-tagging and Spacy for Named-Entity Recognition (NER
 
 ## Evaluation
 
+![Gender Prediction Accuracy](plot.png)
+
+
 ### Character Gender Prediction
 
 Accuracy was calculated by dividing the number of correct predictions by the total number of predictions. Results were split by book to evaluate model performance across different texts. We also measured accuracy by gender. Notably, *Frankenstein* achieved 100% accuracy, likely due to its smaller cast of characters.
